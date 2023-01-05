@@ -1,0 +1,221 @@
+/* This is the general code for the website*/
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --Body: #4b4d4a;
+    --Primarycolor: #6e82db;
+    --textcolor: #ffffff;
+  } 
+
+
+body { 
+    background-color:var(--Body);
+}
+
+/*This is where all of the heard code is*/
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--Primarycolor);
+    color: var(--textcolor);
+}
+
+.header h1 { 
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo { 
+    color: var(--textcolor);
+}
+
+.header div { 
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul { 
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25x;
+}
+
+/* This is the text code */
+
+a {
+    color: var(--textcolor);
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* Top of the page art */
+
+.PA {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/JB.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Float code for images mostly */
+
+.float-left {
+    opacity: 1;
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This is the start of the about me code */
+
+.About {
+    width: 97.5%;
+    display:inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.About-Me {
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 500px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--Primarycolor);
+    color: var(--textcolor);
+}
+
+.About-Me img {
+    width: 30%;
+    height: 100%;
+}
+
+.About-Me h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+/* This is the start of the Previous work code */
+
+.PW {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Work {
+    float: left;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--Primarycolor);
+    color: var(--textcolor);
+}
+
+.Work img {
+    max-height: 200px;
+}
+
+.Work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.Place-Holder1 {
+    float: right;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 500px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--Primarycolor);
+    color: var(--textcolor);
+}
+
+.Place-Holder1 img {
+    max-height: 200px;
+}
+
+.Place-Holder1 h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This is the start of the code related to my resume */
+
+.Resume-Area {
+    float: right;
+    margin-bottom: 20px;
+    width: 97.5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Resume {
+    position: relative;
+    margin-bottom: 20px;
+    height: 600px;
+    width: 500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: var(--Primarycolor);
+    color: var(--textcolor);
+}
+
+.Resume img {
+    height: 97%;
+    width: 97%;
+    padding: 5px;
+}
+
+.Resume h2 {
+    font-size: 36px;
+}
+
+.CTV {
+    font-size: 16px;
+}
+
+/* This is footer/Contact code */
+
+.Contact-Me {
+    padding: 30px;
+    width: 97.5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: var(--Primarycolor);
+    color: var(--textcolor)
+}
+
+.Contact-Me h2 {
+    font-size: 50px;
+}
